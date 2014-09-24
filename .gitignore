@@ -17,3 +17,6 @@
 
 # Ignore backupfiles
 *~
+
+# Ignore emacs backupfiles
+\#*\#
