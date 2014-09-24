@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+- 2.1.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: RNpdY6nM0q0uoYYDaWynehabjqmgN3HBxkYyxjzj/fViYaIJy6pop6CkHHVqTR9U7XHGwY8uPcqmY/5vtE63sCYQ8Zkyt32g45h3ZFnk7/1GVWTSYFYzmlaDQLmaAeqZctuckDN4uyz9abvYGSkL1dX2UHYqHWB6cr3KRbKF0zQ=
+  app: limitless-shore-1464
+  on:
+    repo: myzt/coop_enpit
